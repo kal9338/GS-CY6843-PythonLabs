@@ -7,7 +7,7 @@ def welcome_assignment_answers(question):
     #The student doesn't have to follow the skeleton for this assignment.
     #Another way to implement is using a "case" statements similar to C.
     if question == "In Slack, what is the secret passphrase posted in the #cyberfellows-computernetworking-fall2021 channel posted by a TA?":
-        answer = str("mTLS")
+        answer = "mTLS"
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     if question == "Is it possible to decrypt a message without a key? - Yes/No":
@@ -16,7 +16,7 @@ def welcome_assignment_answers(question):
         answer = "Yes"
     if question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
-    if question == "What is the MD5 hashing value to the following message: NYU Computer Networking":
+    if question == "What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 hash generator and use the answer in your code":
         answer = "68c74b1fe84ac8c662849915bc9002f4"
     if question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
